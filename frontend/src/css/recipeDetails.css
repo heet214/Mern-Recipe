@@ -1,0 +1,58 @@
+.recipeDetails-container {
+  font-family: 'Poppins';
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-size: 2rem;
+  margin: 5rem 2rem;
+  padding: 2rem;
+  border: 3px solid #40514e;
+  color: #222831;
+  border-radius: 10px;
+}
+.recipeDetails-inner {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
+.recipeDetails-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 10px;
+}
+
+.createdat {
+  font-size: 1.5rem;
+}
+
+.button {
+  padding: 10px;
+  border: 2px solid #222831;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 2px 2px 0px #222831;
+}
+.button:active {
+  box-shadow: none;
+  transform: translateY(3px);
+}
+.btn-update {
+  background-color: #e4f9f5;
+}
+.btn-update:hover {
+  background-color: #11999e;
+  color: white;
+}
+.btn-delete {
+  background-color: red;
+  color: white;
+}

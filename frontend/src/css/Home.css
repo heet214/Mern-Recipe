@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  column-gap: 5rem;
+  width: 95%;
+  margin: 3rem auto;
+}
+.recipe_list {
+  border-radius: 10px;
+  background-color: #e3fdfd;
+}
